@@ -1,1 +1,1 @@
-# cf_purge
+# CF Purge - Cloudflare cache purge service.

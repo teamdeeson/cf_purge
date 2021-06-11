@@ -1,0 +1,5 @@
+services:
+  cf_purge.purge:
+    class: \Drupal\cf_purge\Commands\PurgeCommands
+    tags:
+      - { name: drush.command }

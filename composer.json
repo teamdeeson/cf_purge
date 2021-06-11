@@ -1,0 +1,24 @@
+{
+  "name": "teamdeeson/cf_purge",
+  "description": "A Drupal 9 module to provide programmatic purging of the Cloudflare cache.",
+  "type": "drupal-module",
+  "keywords": ["Drupal", "cf_purge"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lee Mills"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Drupal\\cf_purge\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

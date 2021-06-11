@@ -1,0 +1,4 @@
+services:
+  cf_purge.service:
+    class: Drupal\cf_purge\Service\PurgeService
+    arguments: ['@config.factory']
