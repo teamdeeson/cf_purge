@@ -1,5 +1,5 @@
 name: 'CF Purge'
 description: 'Provides a programmatic way to purge the Cloudflare cache.'
-package: 'Web Services'
+package: 'Web services'
 type: 'module'
 core_version_requirement: ^9
